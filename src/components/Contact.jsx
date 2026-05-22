@@ -26,7 +26,7 @@ export default function Contact() {
           <div className='right'>
             {sent ? (
               <div className='success' data-testid="success-msg">
-                ✓ Message received — talk soon!
+                Message received — talk soon!
               </div>
             ) : (
               <form className='form' onSubmit={handleSubmit} data-testid="contact-form">
