@@ -64,7 +64,7 @@ body {
 .navbar .links a {
   text-decoration: none;
   color: var(--text-dark);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   transition: color 0.3s ease;
   position: relative;
@@ -152,10 +152,10 @@ body {
 
 .about p,
 .about-section p {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--text-light);
   margin-bottom: 20px;
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 .about-buttons {
@@ -343,13 +343,13 @@ body {
   background-color: var(--teal);
   color: var(--white);
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
 }
 
 .projects .card .desc {
   color: var(--text-light);
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.8;
   margin: 0;
 }
