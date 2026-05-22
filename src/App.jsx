@@ -1,5 +1,5 @@
 
-import './components/Header.jsx'  
+import './styles.css'
 import Header from './components/Header.jsx'
 import About from './components/About.jsx'
 import Contact from './components/Contact.jsx'
@@ -9,10 +9,10 @@ function App() {
   return (
     <>
     <Header/>
-   <About/>
-   <Projects/>
-   <Contact/>
-   </>
+    <About/>
+    <Projects/>
+    <Contact/>
+    </>
   )
 }
 

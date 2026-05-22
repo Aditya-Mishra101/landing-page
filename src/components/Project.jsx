@@ -11,7 +11,7 @@ const PROJECTS = [
     num: '02',
     title: 'WanderWise',
     tags: ['React', 'Unsplash API', 'Cloudinary'],
-    desc: 'Developed a full-stack travel-planning , which allows a user to manage complex travel data and user-specific trip ownership',
+    desc: 'Developed a full-stack travel-planning, which allows a user to manage complex travel data and user-specific trip ownership',
     link: '#',
   },
   {
@@ -26,8 +26,9 @@ const PROJECTS = [
 export default function Projects() {
   return (
     <section className="projects" id="project">
-      <div className={"container"}>
-        <div className="label"> Selected Work</div>
+      <div className="container">
+        <div className="label">Selected Work</div>
+        <h2>Latest Projects</h2>
         <div className="list">
           {PROJECTS.map((p) => (
             <article key={p.num} className="card">

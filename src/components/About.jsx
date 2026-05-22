@@ -1,21 +1,28 @@
 function About(){
     return (
-        <>
-        <div className="about">
-            <h3> Hello, I am </h3>
-            <h2>Aditya Mishra</h2>
-            <p> Backend Developer | Engineer | Something </p>
-            <p>I am a full stack developer who is very inquisitive and curious about workflow and logic of backend architecture.
-Apart from the coding I also tend to interest in sports, geopolitics and literature.</p>
-        </div>
-        <div className="img-about">
-            <img src=""/>
-        </div>
-        <div>
-            <button> 
-                <a href=""> Get in touch </a> </button>
-        </div>
-        </>
+        <section className="about-section">
+            <div className="about">
+                <div>
+                    <h3> Hello, I'm </h3>
+                    <h2>
+                        <span>Aditya Mishra</span>
+                    </h2>
+                    <p>Backend Developer | Engineer | Full Stack Developer</p>
+                    <p>I am a full stack developer who is very inquisitive and curious about workflow and logic of backend architecture. Apart from the coding I also tend to interest in sports, geopolitics and literature.</p>
+                    <div className="about-buttons">
+                        <button onClick={() => {}}> 
+                            Get in touch
+                        </button>
+                        <button onClick={() => {}}>
+                            My story
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div className="img-about">
+                <img src="https://via.placeholder.com/250" alt="profile"/>
+            </div>
+        </section>
         
     )
 
