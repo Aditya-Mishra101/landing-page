@@ -19,8 +19,8 @@ export default function Contact() {
           <div className='left'>
             <h2 className='heading'>Let's build<br /><em>something great.</em></h2>
             <p className='blurb'>
-              Open to full-time roles, contract work, and the occasional ambitious side project.
-              Drop a line — I respond within 24h.
+              Open to learn and collaborate on various interesting projects.
+              Drop a line — I try to respond within 24h.
             </p>
           </div>
           <div className='right'>
